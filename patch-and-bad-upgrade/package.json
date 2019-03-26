@@ -1,0 +1,9 @@
+{
+  "name": "patch-and-bad-upgrade",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "tap": "5.8.0"
+  }
+}
