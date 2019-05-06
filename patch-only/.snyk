@@ -1,0 +1,10 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - '@snyk/snyk-ui > @frctl/fractal > browser-sync > localtunnel > axios':
+        patched: '2019-05-06T05:06:23.848Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > localtunnel > axios':
+        patched: '2019-05-06T05:06:23.848Z'
