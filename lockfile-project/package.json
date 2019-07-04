@@ -10,7 +10,9 @@
   "scripts": {
     "start": "node app.js",
     "build": "browserify -r jquery > public/js/bundle.js",
-    "cleanup": "mongo express-todo --eval 'db.todos.remove({});'"
+    "cleanup": "mongo express-todo --eval 'db.todos.remove({});'",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "node": "6.14.1"
@@ -42,9 +44,11 @@
     "tap": "^5.7.0",
     "adm-zip": "0.4.7",
     "file-type": "^8.1.0",
-    "@google-cloud/promisify": "0.3.0"
+    "@google-cloud/promisify": "0.3.0",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "browserify": "^13.1.1"
-  }
+  },
+  "snyk": true
 }
