@@ -1,0 +1,47 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - '@snyk/snyk-ui > @frctl/fractal > browser-sync > localtunnel > axios':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > localtunnel > axios':
+        patched: '2019-11-11T13:36:32.176Z'
+  SNYK-JS-LODASH-450202:
+    - '@snyk/snyk-ui > @frctl/fractal > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/handlebars > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > inquirer > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > vorpal > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > browser-sync > easy-extender > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > vorpal > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > inquirer > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > easy-extender > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+  'npm:lodash:20180130':
+    - wemore > xmlbuilder > lodash:
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > cli-table2 > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > vorpal > inquirer > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > cli-table2 > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > vorpal > inquirer > lodash':
+        patched: '2019-11-11T13:36:32.176Z'
+  'npm:minimatch:20160620':
+    - '@snyk/snyk-ui > gulp-sass-glob-import > glob > minimatch':
+        patched: '2019-11-11T13:36:32.176Z'
