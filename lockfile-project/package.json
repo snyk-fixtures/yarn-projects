@@ -45,6 +45,6 @@
     "@google-cloud/promisify": "0.3.0"
   },
   "devDependencies": {
-    "browserify": "^13.1.1"
+    "browserify": "^15.0.0"
   }
 }
