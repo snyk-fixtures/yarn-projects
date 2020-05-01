@@ -1,0 +1,26 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@snyk/snyk-ui > @frctl/fractal > lodash':
+        patched: '2020-05-01T05:50:01.851Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > lodash':
+        patched: '2020-05-01T05:50:01.851Z'
+    - '@snyk/snyk-ui > @frctl/fractal > inquirer > lodash':
+        patched: '2020-05-01T05:50:01.851Z'
+    - '@snyk/snyk-ui > @frctl/fractal > vorpal > lodash':
+        patched: '2020-05-01T05:50:01.851Z'
+    - '@snyk/snyk-ui > @frctl/fractal > browser-sync > easy-extender > lodash':
+        patched: '2020-05-01T05:50:01.851Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > lodash':
+        patched: '2020-05-01T05:50:01.851Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > @frctl/handlebars > lodash':
+        patched: '2020-05-01T05:50:01.851Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > inquirer > lodash':
+        patched: '2020-05-01T05:50:01.851Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > vorpal > lodash':
+        patched: '2020-05-01T05:50:01.851Z'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > @frctl/fractal > browser-sync > easy-extender > lodash':
+        patched: '2020-05-01T05:50:01.851Z'
