@@ -17,7 +17,7 @@
     "passport-local": ">= 0.1.6",
     "pkginfo": "~0.3.0",
     "request": ">=2.14.0",
-    "wemore": "~0.2.0",
+    "wemore": "~0.6.0",
     "@snyk/snyk-ui": "1.0.0",
     "@google-cloud/promisify": "0.3.0"
   },
