@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.19.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -15,9 +15,16 @@ patch:
   'npm:mime:20170907':
     - tap > codecov.io > request > form-data > mime:
         patched: '2019-11-18T10:53:53.846Z'
+    - tap > codecov.io > request > form-data > mime:
+        patched: '2020-08-31T14:21:34.666Z'
   'npm:request:20160119':
     - tap > codecov.io > request:
         patched: '2019-11-18T10:53:53.846Z'
   'npm:tunnel-agent:20170305':
     - tap > codecov.io > request > tunnel-agent:
         patched: '2019-11-18T10:53:53.846Z'
+    - tap > codecov.io > request > tunnel-agent:
+        patched: '2020-08-31T14:21:34.666Z'
+  SNYK-JS-LODASH-567746:
+    - tap > nyc > istanbul > handlebars > async > lodash:
+        patched: '2020-08-31T14:21:34.666Z'
