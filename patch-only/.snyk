@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - '@snyk/snyk-ui > @frctl/fractal > browser-sync > localtunnel > axios':
+        patched: '2022-08-22T21:52:19.839Z'
+  SNYK-JS-LODASH-567746:
+    - '@snyk/snyk-ui > @frctl/fractal > inquirer > lodash':
+        patched: '2022-08-22T21:52:19.839Z'
+    - '@snyk/snyk-ui > @frctl/fractal > vorpal > lodash':
+        patched: '2022-08-22T21:52:19.839Z'
+    - '@snyk/snyk-ui > @frctl/fractal > browser-sync > easy-extender > lodash':
+        patched: '2022-08-22T21:52:19.839Z'
+  'npm:lodash:20180130':
+    - '@snyk/snyk-ui > @frctl/fractal > cli-table2 > lodash':
+        patched: '2022-08-22T21:52:19.839Z'
+    - '@snyk/snyk-ui > @frctl/fractal > vorpal > inquirer > lodash':
+        patched: '2022-08-22T21:52:19.839Z'
