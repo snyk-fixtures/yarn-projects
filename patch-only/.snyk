@@ -1,0 +1,45 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - '@snyk/snyk-ui > @frctl/fractal > browser-sync > localtunnel > axios':
+        patched: '2026-02-03T02:30:36.023Z'
+        id: SNYK-JS-AXIOS-174505
+        path: '@snyk/snyk-ui > @frctl/fractal > browser-sync > localtunnel > axios'
+  SNYK-JS-LODASH-567746:
+    - '@snyk/snyk-ui > @frctl/fractal > lodash':
+        patched: '2026-02-03T02:30:36.023Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@snyk/snyk-ui > @frctl/fractal > lodash'
+    - '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > lodash':
+        patched: '2026-02-03T02:30:36.023Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@snyk/snyk-ui > @frctl/fractal > @frctl/mandelbrot > lodash'
+    - '@snyk/snyk-ui > @frctl/fractal > inquirer > lodash':
+        patched: '2026-02-03T02:30:36.023Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@snyk/snyk-ui > @frctl/fractal > inquirer > lodash'
+    - '@snyk/snyk-ui > @frctl/fractal > vorpal > lodash':
+        patched: '2026-02-03T02:30:36.023Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@snyk/snyk-ui > @frctl/fractal > vorpal > lodash'
+    - '@snyk/snyk-ui > @frctl/fractal > browser-sync > easy-extender > lodash':
+        patched: '2026-02-03T02:30:36.023Z'
+        id: SNYK-JS-LODASH-567746
+        path: '@snyk/snyk-ui > @frctl/fractal > browser-sync > easy-extender > lodash'
+  'npm:lodash:20180130':
+    - '@snyk/snyk-ui > @frctl/fractal > cli-table2 > lodash':
+        patched: '2026-02-03T02:30:36.023Z'
+        id: 'npm:lodash:20180130'
+        path: '@snyk/snyk-ui > @frctl/fractal > cli-table2 > lodash'
+    - '@snyk/snyk-ui > @frctl/fractal > vorpal > inquirer > lodash':
+        patched: '2026-02-03T02:30:36.023Z'
+        id: 'npm:lodash:20180130'
+        path: '@snyk/snyk-ui > @frctl/fractal > vorpal > inquirer > lodash'
+  'npm:minimatch:20160620':
+    - '@snyk/snyk-ui > gulp-sass-glob-import > glob > minimatch':
+        patched: '2026-02-03T02:30:36.023Z'
+        id: 'npm:minimatch:20160620'
+        path: '@snyk/snyk-ui > gulp-sass-glob-import > glob > minimatch'
